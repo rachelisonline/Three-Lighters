@@ -2,27 +2,32 @@ body {
     background-color: rgb(41, 40, 39);
     color: white;
     min-height: calc(100vh - 70px);
-
+    font-family: monospace;
+    box-sizing: border-box;
 }
 
 h2 {
-    text-align: center;
-    color: black;
+    text-align: center; 
+    font-size: 16px;  
+    text-transform: uppercase; 
 }
 
 #block-lighter1 {
     background-color: rgb(255, 203, 0);
     border: 7px double rgb(93, 87, 87);
+    color: white;
 }
 
 #block-lighter2 {
     background-color: white;
     border: 7px double rgb(255, 203, 0);
+    color: rgb(93, 87, 87);
 }
 
 #block-lighter3 {
     background-color: rgb(93, 87, 87);
     border: 7px double white;
+    color: rgb(255, 203, 0);
 }
 
 .lighter-container, .tlop-logo {
@@ -48,7 +53,6 @@ h2 {
 }
 
 .block-lighter {
-    
     border-radius: 10px;
     padding-top: 10px;
     margin: 1%;
@@ -61,8 +65,7 @@ h2 {
 }
 
 .block-lighter:hover .lighter-img {
-    display: none;
-   
+    display: none; 
 }
 
 .block-lighter:hover .lighter-hover {
@@ -86,20 +89,23 @@ h2 {
 }
 
 footer {
-    display: flex;
     width: 85vw;
     margin: 20% auto;
     padding: 10px 0px;
-    text-align: center;
     border-top: 2px white solid;
 }
 
 .footer {
-    margin: 0 auto;
+    display: flex;
+    font-size: 10px; 
+    justify-content: space-between
 }
 
-.footer > p {
-    margin: 0;
+.footer > .website {
+    display: inline;
+}
+
+.footer > .copyright {
+    display: inline; 
     font-style: italic;
-    font-size: .7rem;
 }
