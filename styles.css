@@ -18,28 +18,35 @@ body {
 h2 {
     font-family: 'Rock Salt', monospace;
     text-align: center; 
-    font-size: 14px;  
+    font-size: 12px;  
+}
+
+.block-lighter {
+    background-size: cover;
 }
 
 #block-lighter1 {
     /*background-color: rgb(255, 203, 0);*/
-    border: 7px double rgb(93, 87, 87);
+    border: 7px double rgb(148, 148, 148);
     color: white;
-    text-shadow: 2px 2px 2px rgb(93, 87, 87);
+    text-shadow: 2px 2px 2px black;
+    background-image: url("assets/filmflowers.webp");
 }
 
 #block-lighter2 {
     /*background-color: white;*/
-    border: 7px double rgb(93, 87, 87);
+    border: 7px double rgb(148, 148, 148);
     color: white;
-    text-shadow: 2px 2px 2px rgb(93, 87, 87);
+    text-shadow: 2px 2px 2px black;
+    background-image: url("assets/self.webp");
 }
 
 #block-lighter3 {
     /*background-color: rgb(93, 87, 87);*/
-    border: 7px double rgb(93, 87, 87);
+    border: 7px double rgb(148, 148, 148);
     color: white;
-    text-shadow: 2px 2px 2px rgb(93, 87, 87);
+    text-shadow: 2px 2px 2px black;
+    background-image: url("assets/filmtrail.webp");
 }
 
 .lighter-container, .tlop-logo {
@@ -51,7 +58,7 @@ h2 {
 
 .tlop-logo > img {
     display: block;
-    width: 30%;
+    width: 50%;
     margin: auto;
 }
 
@@ -120,4 +127,5 @@ footer {
 .footer > .copyright {
     display: inline; 
     font-style: italic;
+    text-align: right;
 }

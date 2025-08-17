@@ -45,4 +45,5 @@ footer {
 .footer > .copyright {
     display: inline; 
     font-style: italic;
+    text-align: right;
 }
