@@ -1,3 +1,9 @@
+.rock-salt-regular {
+  font-family: "Rock Salt", cursive;
+  font-weight: 400;
+  font-style: normal;
+}
+
 body {
     display: flex;
     flex-direction: column;
@@ -10,32 +16,30 @@ body {
 }
 
 h2 {
+    font-family: 'Rock Salt', monospace;
     text-align: center; 
-    font-size: 16px;  
-    text-transform: uppercase; 
-    -webkit-text-stroke-width: 1px;
-    -webkit-text-stroke-color: black;
+    font-size: 14px;  
 }
 
 #block-lighter1 {
-    background-color: rgb(255, 203, 0);
+    /*background-color: rgb(255, 203, 0);*/
     border: 7px double rgb(93, 87, 87);
     color: white;
     text-shadow: 2px 2px 2px rgb(93, 87, 87);
 }
 
 #block-lighter2 {
-    background-color: white;
-    border: 7px double rgb(255, 203, 0);
-    color: rgb(93, 87, 87);
-    text-shadow: 2px 2px 2px rgb(255, 203, 0);
+    /*background-color: white;*/
+    border: 7px double rgb(93, 87, 87);
+    color: white;
+    text-shadow: 2px 2px 2px rgb(93, 87, 87);
 }
 
 #block-lighter3 {
-    background-color: rgb(93, 87, 87);
-    border: 7px double white;
-    color: rgb(255, 203, 0);
-    text-shadow: 2px 2px 2px white;
+    /*background-color: rgb(93, 87, 87);*/
+    border: 7px double rgb(93, 87, 87);
+    color: white;
+    text-shadow: 2px 2px 2px rgb(93, 87, 87);
 }
 
 .lighter-container, .tlop-logo {
