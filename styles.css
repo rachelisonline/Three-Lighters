@@ -4,6 +4,7 @@ body {
     background-color: rgb(41, 40, 39);
     color: white;
     min-height: 100dvh;
+    max-width: 95dvw;
     font-family: monospace;
     box-sizing: border-box;
 }
@@ -39,15 +40,15 @@ h2 {
 
 .lighter-container, .tlop-logo {
     display: flex;
-    width: 85vw;
-    margin: 20px auto;
+    width: 85dvw;
+    margin: auto;
+    flex: 1 0 auto;
 }
 
 .tlop-logo > img {
     display: block;
     width: 30%;
     margin: auto;
-    padding: 3%;
 }
 
 .lighter-img {
@@ -61,6 +62,7 @@ h2 {
     border-radius: 10px;
     padding-top: 10px;
     margin: 1%;
+    height: 1%;
 }
 
  .block-lighter .lighter-hover {
@@ -94,14 +96,13 @@ h2 {
 }
 
 footer {
-    display: flex;
-    flex-direction: column;
     margin: auto;
     font-size: 10px; 
     width: 85vw;
-    height: 20px;
     padding: 10px 0px;
     border-top: 2px white solid;
+    flex-shrink: 0;
+    margin-bottom: 10px;
 }
 
 .footer {
