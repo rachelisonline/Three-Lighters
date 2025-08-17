@@ -96,13 +96,12 @@ h2 {
 }
 
 footer {
-    margin: auto;
+    margin: 10px auto;
     font-size: 10px; 
     width: 85vw;
     padding: 10px 0px;
     border-top: 2px white solid;
     flex-shrink: 0;
-    margin-bottom: 10px;
 }
 
 .footer {
