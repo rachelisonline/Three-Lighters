@@ -1,10 +1,10 @@
 body {
-    display: flex;
-    flex-direction: column;
-    min-height: 100dvh;
-    max-width: 95dvw;
-    font-family: monospace;
-    box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  min-height: 100dvh;
+  max-width: 95dvw;
+  font-family: monospace;
+  box-sizing: border-box;
 }
 
 .coming-soon {
@@ -16,25 +16,25 @@ body {
 }
 
 footer {
-    margin: 10px auto;
-    font-size: 10px; 
-    width: 85vw;
-    padding: 10px 0px;
-    border-top: 2px black solid;
-    flex-shrink: 0;
+  margin: 10px auto;
+  font-size: 10px;
+  width: 85vw;
+  padding: 10px 0px;
+  border-top: 2px black solid;
+  flex-shrink: 0;
 }
 
 .footer {
-    display: flex;
-    justify-content: space-between;
+  display: flex;
+  justify-content: space-between;
 }
 
 .footer > .quote {
-    display: inline;
+  display: inline;
 }
 
 .footer > .copyright {
-    display: inline; 
-    font-style: italic;
-    text-align: right;
+  display: inline;
+  font-style: italic;
+  text-align: right;
 }

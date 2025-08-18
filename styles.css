@@ -5,127 +5,128 @@
 }
 
 body {
-    display: flex;
-    flex-direction: column;
-    background-color: rgb(41, 40, 39);
-    color: white;
-    min-height: 100dvh;
-    max-width: 95dvw;
-    font-family: monospace;
-    box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  background-color: rgb(41, 40, 39);
+  color: white;
+  min-height: 100dvh;
+  max-width: 95dvw;
+  font-family: monospace;
+  box-sizing: border-box;
 }
 
 h2 {
-    font-family: 'Rock Salt', monospace;
-    text-align: center; 
-    font-size: 12px;  
+  font-family: "Rock Salt", monospace;
+  text-align: center;
+  font-size: 12px;
 }
 
 .block-lighter {
-    background-size: cover;
+  background-size: cover;
 }
 
 #block-lighter1 {
-    /*background-color: rgb(255, 203, 0);*/
-    border: 7px double rgb(148, 148, 148);
-    color: white;
-    text-shadow: 2px 2px 2px black;
-    background-image: url("assets/filmflowers.webp");
+  /*background-color: rgb(255, 203, 0);*/
+  border: 7px double rgb(148, 148, 148);
+  color: white;
+  text-shadow: 2px 2px 2px black;
+  background-image: url("assets/filmflowers.webp");
 }
 
 #block-lighter2 {
-    /*background-color: white;*/
-    border: 7px double rgb(148, 148, 148);
-    color: white;
-    text-shadow: 2px 2px 2px black;
-    background-image: url("assets/self.webp");
+  /*background-color: white;*/
+  border: 7px double rgb(148, 148, 148);
+  color: white;
+  text-shadow: 2px 2px 2px black;
+  background-image: url("assets/self.webp");
 }
 
 #block-lighter3 {
-    /*background-color: rgb(93, 87, 87);*/
-    border: 7px double rgb(148, 148, 148);
-    color: white;
-    text-shadow: 2px 2px 2px black;
-    background-image: url("assets/filmtrail.webp");
+  /*background-color: rgb(93, 87, 87);*/
+  border: 7px double rgb(148, 148, 148);
+  color: white;
+  text-shadow: 2px 2px 2px black;
+  background-image: url("assets/filmtrail.webp");
 }
 
-.lighter-container, .tlop-logo {
-    display: flex;
-    width: 85dvw;
-    margin: auto;
-    flex: 1 0 auto;
+.lighter-container,
+.tlop-logo {
+  display: flex;
+  width: 85dvw;
+  margin: auto;
+  flex: 1 0 auto;
 }
 
 .tlop-logo > img {
-    display: block;
-    width: 50%;
-    margin: auto;
+  display: block;
+  width: 50%;
+  margin: auto;
 }
 
 .lighter-img {
-    display: block;
-    width: 30%;
-    margin: auto;
-    padding-top: 19%;
+  display: block;
+  width: 30%;
+  margin: auto;
+  padding-top: 19%;
 }
 
 .block-lighter {
-    border-radius: 10px;
-    padding-top: 10px;
-    margin: 1%;
-    height: 1%;
+  border-radius: 10px;
+  padding-top: 10px;
+  margin: 1%;
+  height: 1%;
 }
 
- .block-lighter .lighter-hover {
-    width: 30%;
-    margin: auto;
-    display: none;
+.block-lighter .lighter-hover {
+  width: 30%;
+  margin: auto;
+  display: none;
 }
 
 .block-lighter:hover .lighter-img {
-    display: none; 
+  display: none;
 }
 
 .block-lighter:hover .lighter-hover {
-    display: block; 
+  display: block;
 }
 
 .block-lighter:active .lighter-img {
-    display: none;
+  display: none;
 }
 
 .block-lighter:active .lighter-hover {
-    display: block;
+  display: block;
 }
 
 .block-lighter:focus .lighter-img {
-    display: none;
+  display: none;
 }
 
 .block-lighter:focus .lighter-hover {
-    display: block;
+  display: block;
 }
 
 footer {
-    margin: 10px auto;
-    font-size: 10px; 
-    width: 85vw;
-    padding: 10px 0px;
-    border-top: 2px white solid;
-    flex-shrink: 0;
+  margin: 10px auto;
+  font-size: 10px;
+  width: 85vw;
+  padding: 10px 0px;
+  border-top: 2px white solid;
+  flex-shrink: 0;
 }
 
 .footer {
-    display: flex;
-    justify-content: space-between;
+  display: flex;
+  justify-content: space-between;
 }
 
 .footer > .quote {
-    display: inline;
+  display: inline;
 }
 
 .footer > .copyright {
-    display: inline; 
-    font-style: italic;
-    text-align: right;
+  display: inline;
+  font-style: italic;
+  text-align: right;
 }

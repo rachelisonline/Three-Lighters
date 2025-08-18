@@ -5,7 +5,6 @@ body {
   max-width: 99dvw;
   font-family: monospace;
   box-sizing: border-box;
-  
 }
 
 /* this will be replaced with gallery */
@@ -15,7 +14,6 @@ body {
   /* flex-wrap: wrap; */
   margin: 0 auto;
   flex: 1 0 auto;
-  
 }
 
 .img {
@@ -25,25 +23,25 @@ body {
 }
 
 footer {
-    margin: 10px auto;
-    font-size: 10px; 
-    width: 85vw;
-    padding: 10px 0px;
-    border-top: 2px black solid;
-    flex-shrink: 0;
+  margin: 10px auto;
+  font-size: 10px;
+  width: 85vw;
+  padding: 10px 0px;
+  border-top: 2px black solid;
+  flex-shrink: 0;
 }
 
 .footer {
-    display: flex;
-    justify-content: space-between;
+  display: flex;
+  justify-content: space-between;
 }
 
 .footer > .quote {
-    display: inline;
+  display: inline;
 }
 
 .footer > .copyright {
-    display: inline; 
-    font-style: italic;
-    text-align: right;
+  display: inline;
+  font-style: italic;
+  text-align: right;
 }
