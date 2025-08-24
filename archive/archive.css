@@ -5,43 +5,78 @@ body {
   max-width: 99dvw;
   font-family: monospace;
   box-sizing: border-box;
+  
 }
 
-/* this will be replaced with gallery */
-.coming-soon {
-  /* display: flex; */
+.gallery {
+  display: flex;
   width: 97dvw;
-  /* flex-wrap: wrap; */
+  flex-wrap: wrap;
   margin: 0 auto;
   flex: 1 0 auto;
+  justify-content: center;
+  
+}
+
+img {
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
 }
 
 .img {
-  border: 1px solid black;
-  width: 75px;
-  height: 75px;
+  border: 0.5px solid white;
+  width: 180px;
+  height: 180px;
+}
+
+.img:hover {
+  filter: invert(100%);
+  border-color: transparent;
+}
+
+.img:active {
+  filter: invert(100%);
+  border-color: transparent;
+}
+
+.blank {
+  border: 0.5px solid transparent;
+}
+
+.intro {
+    display: flex;
+    justify-content: space-around;
+    margin: 10px auto;
+    font-size: 10px; 
+    width: 85vw;
+    padding: 10px 0px;
+    border-bottom: 2px black solid;
+}
+
+.intro-text {
+  display: inline;
 }
 
 footer {
-  margin: 10px auto;
-  font-size: 10px;
-  width: 85vw;
-  padding: 10px 0px;
-  border-top: 2px black solid;
-  flex-shrink: 0;
+    margin: 10px auto;
+    font-size: 10px; 
+    width: 85vw;
+    padding: 10px 0px;
+    border-top: 2px black solid;
+    flex-shrink: 0;
 }
 
 .footer {
-  display: flex;
-  justify-content: space-between;
+    display: flex;
+    justify-content: space-between;
 }
 
 .footer > .quote {
-  display: inline;
+    display: inline;
 }
 
 .footer > .copyright {
-  display: inline;
-  font-style: italic;
-  text-align: right;
+    display: inline; 
+    font-style: italic;
 }
