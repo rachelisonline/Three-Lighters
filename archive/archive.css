@@ -46,16 +46,23 @@ img {
 
 .intro {
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
     margin: 10px auto;
-    font-size: 10px; 
+    font-size: 15px; 
     width: 85vw;
-    padding: 10px 0px;
+    padding: 10px 20px;
     border-bottom: 2px black solid;
 }
 
 .intro-text {
   display: inline;
+}
+
+.tlop-logo {
+  display: block;
+  margin: auto;
+  width: 20%;
+  padding-top: 20px;
 }
 
 footer {
