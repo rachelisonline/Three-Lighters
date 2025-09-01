@@ -6,7 +6,7 @@ body {
   font-family: monospace;
   box-sizing: border-box;
   /* background-color: rgb(26, 25, 25); */
-  background-image: url("/assets/IMG_4374.webp");
+  background-image: url("/assets/feedbackground.webp");
   background-size: cover;
   color: antiquewhite;
 }
@@ -53,6 +53,7 @@ section {
 
 .date-and-time {
   display: inline;
+  padding-left: 10px;
 }
 
 .date,
@@ -69,8 +70,8 @@ section {
 
 .avatar {
   display: inline;
-  width: 30px;
-  height: 30px;
+  width: 40px;
+  height: 40px;
   vertical-align: middle;
   padding-bottom: 5px;;
 }
