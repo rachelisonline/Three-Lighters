@@ -30,12 +30,12 @@ img {
   height: 200px;
 }
 
-.img:hover {
+.archive-img:hover {
   filter: invert(100%);
   border-color: transparent;
 }
 
-.img:active {
+.archive-img:active {
   filter: invert(100%);
   border-color: transparent;
 }
