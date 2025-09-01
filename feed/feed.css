@@ -1,0 +1,118 @@
+body {
+  display: flex;
+  flex-direction: column;
+  min-height: 99dvh;
+  max-width: 99dvw;
+  font-family: monospace;
+  box-sizing: border-box;
+  /* background-color: rgb(26, 25, 25); */
+  background-image: url("/assets/IMG_4374.webp");
+  background-size: cover;
+  color: antiquewhite;
+}
+
+section {
+  margin-bottom: 50px;
+}
+
+.feed {
+  display: flex;
+  width: 70%;
+  height: 70dvh;
+  flex-wrap: wrap;
+  flex: 1 0 auto;
+  padding: 3em;
+  margin: 0 auto;
+  overflow-y: auto;
+  text-wrap: wrap;
+  background: rgba(26, 25, 25, 50%);
+  box-shadow: 0 0 10px 5px  rgba(26, 25, 25, 50%);
+  border-radius: 2px;
+}
+
+.header-addl {
+    display: flex;
+    justify-content: center;
+    margin: 10px auto;
+    font-size: 10px; 
+    width: 85vw;
+    padding: 10px 0px;
+    /* border-bottom: 2px antiquewhite solid; */
+}
+
+.header-text {
+  display: inline;
+}
+
+.tlop-logo {
+  display: block;
+  margin: auto;
+  width: 20%;
+  padding-top: 20px;
+}
+
+.date-and-time {
+  display: inline;
+}
+
+.date,
+.time {
+  color: palegoldenrod;
+  font-size: 0.8em;
+}
+
+.blank {
+    visibility: hidden;
+    margin: 0;
+    padding: 0;
+} 
+
+.avatar {
+  display: inline;
+  width: 30px;
+  height: 30px;
+  vertical-align: middle;
+  padding-bottom: 5px;;
+}
+
+/* https://embedresponsively.com/ */
+.embed-container {
+  position: relative;
+  padding-bottom: 56.25%;
+  height: 0;
+  overflow: hidden;
+  max-width: 100%;
+}
+
+.embed-container iframe,
+.embed-container object,
+.embed-container embed {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+
+footer {
+  margin: 10px auto;
+  font-size: 10px;
+  width: 85vw;
+  padding: 10px 0px;
+  border-top: 2px antiquewhite solid;
+  flex-shrink: 0;
+}
+
+.footer {
+  display: flex;
+  justify-content: space-between;
+}
+
+.footer > .quote {
+  display: inline;
+}
+
+.footer > .copyright {
+  display: inline;
+  font-style: italic;
+}
