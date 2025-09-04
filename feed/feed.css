@@ -11,7 +11,7 @@ body {
   color: antiquewhite;
 }
 
-section {
+.post {
   margin-bottom: 50px;
 }
 
@@ -74,6 +74,11 @@ section {
   height: 40px;
   vertical-align: middle;
   padding-bottom: 5px;;
+}
+
+iframe {
+  border: none;
+  overflow: hidden;
 }
 
 /* https://embedresponsively.com/ */
