@@ -87,6 +87,12 @@ body {
   width: 80%;
 }
 
+@media screen and (min-width: 48.6em), (orientation: landscape) {
+  .post-picture {
+    width: 300px;
+  }
+}
+
 iframe {
   border: none;
   overflow: hidden;
