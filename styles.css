@@ -50,17 +50,24 @@ h2 {
 }
 
 .lighter-container,
-.tlop-logo {
+.home-header {
   display: flex;
   width: 85dvw;
   margin: auto;
   flex: 1 0 auto;
 }
 
-.tlop-logo > img {
+.tlop-logo {
   display: block;
-  width: 30%;
   margin: auto;
+  width: 50%;
+  padding-top: 20px;
+}
+
+@media screen and (min-width: 50em), (orientation: landscape) {
+  .tlop-logo {
+    width: 30%;
+  }
 }
 
 .lighter-img {
