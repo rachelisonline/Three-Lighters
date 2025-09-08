@@ -1,75 +1,36 @@
+.rock-salt-regular {
+  font-family: "Rock Salt", cursive;
+  font-weight: 400;
+  font-style: normal;
+}
+
 body {
   display: flex;
   flex-direction: column;
+  /* background-color: rgb(91, 120, 116); */
+  color: black;
   min-height: 100dvh;
-  max-width: 99dvw;
+  max-width: 95dvw;
   font-family: monospace;
   box-sizing: border-box;
-  
 }
 
-.gallery {
+h2 {
+  font-family: "Rock Salt", monospace;
+  text-align: center;
+  font-size: 14px;
+}
+
+.archive-container,
+.archive-header {
   display: flex;
-  width: 97dvw;
-  flex-wrap: wrap;
-  margin: 0 auto;
+  width: 85dvw;
+  margin: auto;
   flex: 1 0 auto;
-  justify-content: center;
-  
 }
 
-img {
-  height: 100%;
-  width: 100%;
-  object-fit: cover;
-}
-
-.archive-img {
-  border: 0.5px solid white;
-  width: 125px;
-  height: 125px;
-}
-
-@media screen and (min-width: 46.8em) {
-  .archive-img {
-    width: 150px;
-    height: 150px;
-  }
-}
-
-@media screen and (min-width: 50em), (orientation: landscape) {
-  .archive-img {
-    width: 200px;
-    height: 200px;
-  }
-}
-
-.archive-img:hover {
-  filter: invert(100%);
-  border-color: transparent;
-}
-
-.archive-img:active {
-  filter: invert(100%);
-  border-color: transparent;
-}
-
-.blank {
-  border: 0.5px solid transparent;
-}
-
-.intro {
-    display: flex;
-    justify-content: space-between;
-    margin: 10px auto;
-    font-size: 12px; 
-    width: 85vw;
-    padding: 10px 20px;
-    border-bottom: 2px black solid;
-}
-
-.intro-text {
-  display: inline;
+.block-archive {
+  margin: 0 auto;
 }
 
 .tlop-logo {
@@ -79,33 +40,41 @@ img {
   padding-top: 20px;
 }
 
-
 @media screen and (min-width: 50em), (orientation: landscape) {
   .tlop-logo {
     width: 30%;
   }
 }
 
+.archive-img {
+  display: block;
+  width: 50%;
+  margin: auto;
+}
+#block-archive1 img {
+  padding-top: 7px;
+}
 
 footer {
-    margin: 10px auto;
-    font-size: 10px; 
-    width: 85vw;
-    padding: 10px 0px;
-    border-top: 2px black solid;
-    flex-shrink: 0;
+  margin: 10px auto;
+  font-size: 10px;
+  width: 85vw;
+  padding: 10px 0px;
+  border-top: 2px black solid;
+  flex-shrink: 0;
 }
 
 .footer {
-    display: flex;
-    justify-content: space-between;
+  display: flex;
+  justify-content: space-between;
 }
 
 .footer > .quote {
-    display: inline;
+  display: inline;
 }
 
 .footer > .copyright {
-    display: inline; 
-    font-style: italic;
+  display: inline;
+  font-style: italic;
+  text-align: right;
 }
