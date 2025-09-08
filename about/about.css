@@ -1,40 +1,101 @@
-body {
-  display: flex;
-  flex-direction: column;
-  min-height: 100dvh;
-  max-width: 95dvw;
-  font-family: monospace;
+* {
+  margin: 0;
+  padding: 0;
+}
+
+html {
   box-sizing: border-box;
+  font-family: monospace;
 }
 
-.coming-soon {
-  /* display: flex; */
-  width: 97dvw;
-  /* flex-wrap: wrap; */
-  margin: 0 auto;
-  flex: 1 0 auto;
+body { 
+    width: 75dvw;
+    overflow-x: hidden;
+    text-wrap: wrap;
+    margin: 0 auto;
+    background-color: rgb(15, 29, 6);
+    color: rgb(245, 241, 236);
+    overflow: hidden;
 }
 
-footer {
-  margin: 10px auto;
-  font-size: 10px;
-  width: 85vw;
-  padding: 10px 0px;
-  border-top: 2px black solid;
-  flex-shrink: 0;
+@media screen and (min-width: 50em) {
+    body {
+        display: flex;
+    }
 }
 
-.footer {
-  display: flex;
-  justify-content: space-between;
+#navbar {
+    width: 30%;
+    padding: 40px 40px;
+    margin-bottom: 50em;
 }
 
-.footer > .quote {
-  display: inline;
+ @media screen and (min-width: 50em) {
+    #navbar {
+        position: sticky;
+        left: 0px;
+        top: 0px;
+        overflow-y: auto;
+        overflow-x: hidden;
+        margin-bottom: 0;
+        margin-right: 50px;
+        align-items: left;
+        height: 100dvh;
+        width: 40%;
+    }
+} 
+
+.nav-link,
+.top-link {
+    display: block;
+    padding: 10px;
+    text-decoration: none;
+    color: lightgoldenrodyellow;
 }
 
-.footer > .copyright {
-  display: inline;
-  font-style: italic;
-  text-align: right;
+.nav-link:first-of-type {
+    border: none;
+}
+
+h1 {
+    padding-bottom: 50px;
+}
+
+h2 {
+    color: lightgoldenrodyellow;;
+    padding-bottom: 25px;
+}
+
+p {
+    padding: 7px;
+    line-height: 1.5rem;
+}
+
+pre {
+    text-wrap: wrap;
+    padding-left: 50px;
+    padding-top: 20px;
+}
+
+ul {
+    padding-left: 40px;
+}
+
+.tool {
+    color: lightcoral;
+}
+
+.main-section {
+    height: 100dvh;
+    width: 80%;
+    align-items: right;
+    padding: 50px 40px;
+    margin-bottom: 8em;
+} 
+
+@media screen and (min-width: 50em) {
+    .main-section {
+        align-items: right;
+        width: 45%
+    }
 }
