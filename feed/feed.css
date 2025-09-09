@@ -89,7 +89,7 @@ body {
 
 @media screen and (min-width: 48.6em), (orientation: landscape) {
   .post-picture {
-    width: 300px;
+    width: 350px;
   }
 }
 
