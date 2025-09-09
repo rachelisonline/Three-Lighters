@@ -7,7 +7,7 @@
 body {
   display: flex;
   flex-direction: column;
-  /* background-color: rgb(91, 120, 116); */
+  background-color: rgb(126, 126, 126);
   color: black;
   min-height: 100dvh;
   max-width: 95dvw;
@@ -19,6 +19,7 @@ h2 {
   font-family: "Rock Salt", monospace;
   text-align: center;
   font-size: 14px;
+  color: black;
 }
 
 .archive-container,
@@ -29,15 +30,12 @@ h2 {
   flex: 1 0 auto;
 }
 
-.block-archive {
-  margin: 0 auto;
-}
-
 .tlop-logo {
   display: block;
   margin: auto;
   width: 50%;
   padding-top: 20px;
+  padding-bottom: 30px;
 }
 
 @media screen and (min-width: 50em), (orientation: landscape) {
@@ -48,11 +46,19 @@ h2 {
 
 .archive-img {
   display: block;
-  width: 50%;
+  width: 60%;
   margin: auto;
+  height: auto;
 }
-#block-archive1 img {
-  padding-top: 7px;
+
+@media screen and (min-width: 50em) {
+  .archive-img {
+    width: 30%;
+  }
+}
+
+.block-archive {
+  margin: 0 auto;
 }
 
 footer {
