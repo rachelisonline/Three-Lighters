@@ -6,9 +6,9 @@ body {
   font-family: monospace;
   box-sizing: border-box;
   /* background-color: rgb(26, 25, 25); */
-  background-image: url("/assets/feedbackground.webp");
+  background-image: url("/assets/feedbackground1.webp");
   background-size: cover;
-  color: antiquewhite;
+  color: white;
 }
 
 .post {
@@ -25,9 +25,15 @@ body {
   margin: 0 auto;
   overflow-y: auto;
   text-wrap: wrap;
-  background: rgba(26, 25, 25, 50%);
+  background: rgba(26, 25, 25, 80%);
   box-shadow: 0 0 10px 5px  rgba(26, 25, 25, 50%);
   border-radius: 2px;
+}
+
+@media screen and (min-width: 48.6em), (orientation: landscape) {
+  .feed {
+    width: 45%;
+  }
 }
 
 .header-addl {
@@ -65,8 +71,8 @@ body {
 
 .date,
 .time {
-  color: palegoldenrod;
-  font-size: 0.8em;
+  color: rgba(223, 164, 184, 100%);
+  font-size: 0.9em;
 }
 
 .blank {
@@ -80,7 +86,7 @@ body {
   width: 40px;
   height: 40px;
   vertical-align: middle;
-  padding-bottom: 5px;;
+  padding-bottom: 5px;
 }
 
 .post-picture {
@@ -122,7 +128,7 @@ footer {
   font-size: 10px;
   width: 85vw;
   padding: 10px 0px;
-  border-top: 2px antiquewhite solid;
+  border-top: 2px white solid;
   flex-shrink: 0;
 }
 
