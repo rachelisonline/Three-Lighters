@@ -97,6 +97,16 @@ a:hover {
     margin-bottom: 8em;
 } 
 
+.contact-photo {
+    width: 90%
+}
+
+@media screen and (min-width: 50em) {
+    .contact-photo {
+        width: 500px;
+    }
+}
+
 @media screen and (min-width: 50em) {
     .main-section {
         align-items: right;
