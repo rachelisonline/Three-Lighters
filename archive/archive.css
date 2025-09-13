@@ -1,3 +1,9 @@
+html {
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
 .rock-salt-regular {
   font-family: "Rock Salt", cursive;
   font-weight: 400;
@@ -7,10 +13,10 @@
 body {
   display: flex;
   flex-direction: column;
-  background-color: white;
-  color: black;
+  background-color: rgb(27, 26, 25);
+  color: white;
   min-height: 100dvh;
-  max-width: 95dvw;
+  max-width: 99dvw;
   font-family: monospace;
   box-sizing: border-box;
 }
@@ -22,43 +28,75 @@ h2 {
   color: black;
 }
 
-.archive-container,
-.archive-header {
+a {
+  color: white;
+}
+
+a:hover {
+  text-decoration: none;
+}
+
+.analog-container,
+.digital-container {
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 50%;
+    width: 100%;
+    background-color: rgb(27, 26, 25);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.analog-container {
+    background-image: url("/assets/IMG210.webp");
+}
+
+.digital-container {
+    background-image: url("/assets/DIGI420.webp");
+}
+
+.nav-img {
+    width: 250px;
+}
+
+.intro {
+    display: flex;
+    justify-content: space-between;
+    margin: 10px auto;
+    font-size: 12px; 
+    width: 85vw;
+    padding: 10px 20px;
+    border-bottom: 2px white solid;
+}
+
+.intro-text {
+  display: inline;
+}
+
+.archive-container {
   display: flex;
-  width: 85dvw;
-  margin: auto;
+  width: 90vw;
+  height: 50dvh;
+  margin: 0 auto;
   flex: 1 0 auto;
+  flex-direction: column;
 }
 
 .tlop-logo {
   display: block;
   margin: auto;
-  width: 50%;
+  width: 40%;
   padding-top: 20px;
-  padding-bottom: 30px;
 }
 
 @media screen and (min-width: 50em), (orientation: landscape) {
   .tlop-logo {
-    width: 30%;
+    width: 20%;
   }
-}
-
-.archive-img {
-  display: block;
-  width: 60%;
-  margin: auto;
-  height: auto;
-}
-
-@media screen and (min-width: 50em) {
-  .archive-img {
-    width: 30%;
-  }
-}
-
-.block-archive {
-  margin: 0 auto;
 }
 
 footer {
@@ -66,7 +104,7 @@ footer {
   font-size: 10px;
   width: 85vw;
   padding: 10px 0px;
-  border-top: 2px black solid;
+  border-top: 2px white solid;
   flex-shrink: 0;
 }
 
@@ -79,8 +117,12 @@ footer {
   display: inline;
 }
 
-.footer > .copyright {
+.footer > .footer-link {
   display: inline;
+}
+
+.copyright {
   font-style: italic;
-  text-align: right;
+  text-align: center;
+  padding-top: 15px;
 }

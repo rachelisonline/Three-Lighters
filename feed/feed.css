@@ -1,3 +1,9 @@
+html {
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
 body {
   display: flex;
   flex-direction: column;
@@ -6,9 +12,17 @@ body {
   font-family: monospace;
   box-sizing: border-box;
   /* background-color: rgb(26, 25, 25); */
-  background-image: url("/assets/feedbackground1.webp");
+  background-image: url("/assets/DIGI52.webp");
   background-size: cover;
   color: white;
+}
+
+a {
+  color: white;
+}
+
+a:hover {
+  text-decoration: none;
 }
 
 .post {
@@ -18,7 +32,7 @@ body {
 .feed {
   display: flex;
   width: 70%;
-  height: 70dvh;
+  height: 50dvh;
   flex-wrap: wrap;
   flex: 1 0 auto;
   padding: 3em;
@@ -36,17 +50,17 @@ body {
   }
 }
 
-.header-addl {
+.intro {
     display: flex;
-    justify-content: center;
+    justify-content: space-between;
     margin: 10px auto;
-    font-size: 10px; 
+    font-size: 12px; 
     width: 85vw;
-    padding: 10px 0px;
-    /* border-bottom: 2px antiquewhite solid; */
+    padding: 10px 20px;
+    border-bottom: 2px white solid;
 }
 
-.header-text {
+.intro-text {
   display: inline;
 }
 
@@ -71,8 +85,10 @@ body {
 
 .date,
 .time {
-  color: rgba(223, 164, 184, 100%);
+  color: rgb(152, 184, 210);
+  /* color: lightcoral; */
   font-size: 0.9em;
+  font-weight: bold;
 }
 
 .blank {
@@ -141,7 +157,12 @@ footer {
   display: inline;
 }
 
-.footer > .copyright {
+.footer > .footer-link {
   display: inline;
+}
+
+.copyright {
   font-style: italic;
+  text-align: center;
+  padding-top: 15px;
 }

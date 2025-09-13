@@ -5,6 +5,8 @@ body {
   max-width: 95dvw;
   font-family: monospace;
   box-sizing: border-box;
+  color: white;
+  background-color: rgb(27, 26, 25);
 }
 
 .coming-soon {
@@ -20,7 +22,7 @@ footer {
   font-size: 10px;
   width: 85vw;
   padding: 10px 0px;
-  border-top: 2px black solid;
+  border-top: 2px white solid;
   flex-shrink: 0;
 }
 
