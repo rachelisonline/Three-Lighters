@@ -17,6 +17,11 @@ body {
   flex: 1 0 auto;
 }
 
+iframe {
+  border: none;
+}
+
+
 footer {
   margin: 10px auto;
   font-size: 10px;

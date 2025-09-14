@@ -80,7 +80,7 @@ a:hover {
 .archive-container {
   display: flex;
   width: 90vw;
-  height: 80dvh;
+  height: 75dvh;
   margin: 0 auto;
   flex: 1 0 auto;
   flex-direction: column;
