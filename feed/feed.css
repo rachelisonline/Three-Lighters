@@ -167,14 +167,14 @@ footer {
   padding-top: 15px;
 }
 
-/* dumb animation thing */
+/* fuck you animation */
 
 .circle {
     position: relative;
     width: 200px;
     height: 200px;
     border-radius: 50%;
-    animation: spinny 5s 0s reverse 2 linear;
+    animation: spinny 5s 0s reverse infinite linear;
     background-color: transparent;
 }
 
