@@ -182,8 +182,8 @@ footer {
     background-color: transparent;
 }
 
-.circle:active,
-.circle:hover {
+.circle:hover,
+.circle:active {
   animation: spinny 5s 0s reverse infinite linear;
 }
 
