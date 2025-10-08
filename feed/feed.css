@@ -120,6 +120,11 @@ iframe {
   overflow: hidden;
 }
 
+video {
+  border-radius: 7px;
+  width: 80%;
+}
+
 /* https://embedresponsively.com/ */
 .embed-container {
   position: relative;
@@ -174,13 +179,12 @@ footer {
     width: 200px;
     height: 200px;
     border-radius: 50%;
-    animation: spinny 5s 0s reverse infinite linear;
     background-color: transparent;
 }
 
 .circle:active,
 .circle:hover {
-  animation-play-state: paused;
+  animation: spinny 5s 0s reverse infinite linear;
 }
 
 .slice p {
