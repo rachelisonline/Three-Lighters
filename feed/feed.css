@@ -178,6 +178,11 @@ footer {
     background-color: transparent;
 }
 
+.circle:active,
+.circle:hover {
+  animation-play-state: paused;
+}
+
 .slice p {
     transform: rotate(90deg);
     font-family: monospace;
