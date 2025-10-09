@@ -100,6 +100,15 @@ ul {
     color: lightcoral;
 }
 
+#contact a {
+    color: lightcoral;
+    text-decoration: none;
+}
+
+#contact a:hover {
+    color: lightblue;
+}
+
 a:hover {
     color: paleturquoise;
 }
