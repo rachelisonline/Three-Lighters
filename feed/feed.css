@@ -172,6 +172,11 @@ footer {
   padding-top: 15px;
 }
 
+
+.thumbs {
+  filter: grayscale(100);
+}
+
 /* fuck you animation */
 
 .circle {
