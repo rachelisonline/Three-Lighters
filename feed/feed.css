@@ -111,7 +111,7 @@ a:hover {
 
 @media screen and (min-width: 48.6em), (orientation: landscape) {
   .post-picture {
-    width: 350px;
+    width: 500px;
   }
 }
 
