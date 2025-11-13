@@ -109,6 +109,10 @@ a:hover {
   width: 93%;
 }
 
+.morning {
+  border-radius: 50px
+}
+
 @media screen and (min-width: 48.6em), (orientation: landscape) {
   .post-picture {
     width: 500px;
