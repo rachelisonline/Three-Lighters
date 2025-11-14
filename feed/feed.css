@@ -107,6 +107,7 @@ a:hover {
 
 .post-picture {
   width: 93%;
+  border-radius: 5px;
 }
 
 .morning {
