@@ -121,13 +121,17 @@ a:hover {
     margin-bottom: 8em;
 } 
 
-.contact-photo {
+.contact-photo,
+.current-book {
     width: 90%
 }
 
 @media screen and (min-width: 50em) {
     .contact-photo {
         width: 500px;
+    }
+    .current-book {
+        width: 350px;
     }
 }
 
